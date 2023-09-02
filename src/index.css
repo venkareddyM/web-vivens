@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.parent{
+  height: 100%;
+}
+.header{
+  height: 10vh;
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
+  display: flex;
+  height: 10vh;
+
+}
+.main{
+  height: 77vh;
+  background-color:lightskyblue;
+}
+.footer{
+  display: flex;
+  height: 10vh;
+  background-color: lightslategrey;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  display: flex;
+  color: black;
+  justify-content: flex-end;
+  
+}
+.SignUp{
+  display: flex;
+  color:black;
+  justify-content:center;
+  
+}
+.ContactUs{
+  display: flex;
+  color: black;
+  justify-content:flex-start;
+ 
+}
+
+.header-menu{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.vivens_link{
+  text-decoration: none;
+  color: black;
+}
+
+.vivens_link:hover{
+  color: #ffa500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
